@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 3 - ApexPlanet</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Responsive Design & JS Interactivity</h1>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel-container">
+    <img src="https://picsum.photos/id/1015/600/300" class="carousel-image" id="carousel-img" alt="Carousel" />
+    <div class="carousel-buttons">
+      <button onclick="prevImage()">Prev</button>
+      <button onclick="nextImage()">Next</button>
+    </div>
+  </section>
+
+  <!-- API Data Display -->
+  <section class="api-data">
+    <h2>Random Joke</h2>
+    <p id="joke-text">Loading...</p>
+    <button onclick="fetchJoke()">Get Another Joke</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

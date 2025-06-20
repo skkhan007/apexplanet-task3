@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.api-data {
+  text-align: center;
+}
+
+.api-data button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .carousel-image {
+    width: 100%;
+  }
+
+  .carousel-buttons button,
+  .api-data button {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .carousel-buttons button {
+    padding: 8px;
+  }
+}
